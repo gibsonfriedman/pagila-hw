@@ -47,7 +47,7 @@ The following picture illustrates the database's structure:
    > **Note:**
    > The github actions for this project are currently broken because they are not running the correct scripts.
    > You will have to modify the file `.github/workflows/tests.yml` to run the correct script.
-   > Once you've done that, you are likely to find that some test cases will pass on the lambda server but fail on github actions.
+   > Once you have done that, you are likely to find that some test cases will pass on the lambda server but fail on github actions.
    > You will then have to figure out why they are failing on github actions and fix them for full credit.
 
 1. **Grading:**
