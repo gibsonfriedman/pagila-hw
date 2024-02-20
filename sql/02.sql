@@ -3,4 +3,4 @@
  * Order the results from low to hi.
  */
 
-SELECT actor_id FROM actor WHERE first_name ILIKE 'j%' ORDER BY actor_id;
+SELECT get_actor_ids AS actor_id FROM get_actor_ids('j%');
